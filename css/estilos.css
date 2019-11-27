@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Dancing-Script";
+  src: url("DancingScript-Regular.otf");
+}
+body{
+  background-color: #02010a;
+  font-family: "Dancing-Script";
+}
+#contenido{
+  width: 900px;
+  margin: 0 auto;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  padding-top: 20px;
+}
+#menu{
+  padding-bottom: 20px;
+}
+nav{
+  float: right;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+#menu a[href]{
+  color: white;
+}
+#menu a[href^="index"]{
+  text-decoration: none;
+}
+
+#contenedor1{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #82c3a6;
+}
+#contenedor2{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d5c75f;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+#contenedor1>div{
+  width: 60%;
+  margin: auto;
+}
+#contenedor2>div{
+  width: 45%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+#imagen1 img{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+  -o-filter: drop-shadow(2px 2px 2px #02010a);
+}
+#imagen2 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+  -o-filter: drop-shadow(2px 2px 2px #02010a);
+}
+#imagen3 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+  -o-filter: drop-shadow(2px 2px 2px #02010a);
+}
+#imagen2 img:hover{
+  transform: rotate(10deg);
+}
+#imagen3 img:hover{
+  transform: translate(20px,-5px);
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+#SocialNetworks img{
+  width: 20px;
+}
+#Contacto{
+  width: 25%;
+}
+#Términos{
+  width: 25%;
+}
+#SocialNetworks{
+  width: 25%;
+  text-align: center;
+}
+#Derechos{
+  width: 25%;
+}
+@media screen and (max-width: 900px){
+      header{
+      max-width: 60%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    #contenedor1{
+      max-width: 60%;
+    }
+    #contenedor2{
+      max-width: 60%;
+      display: flex;
+      flex-direction: column;
+    }
+    #contenedor2>div{
+      margin: 0 auto;
+      width: 65%;
+    }
+    footer{
+      max-width: 60%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+}

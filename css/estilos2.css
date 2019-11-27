@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "Dancing-Script";
+  src: url("DancingScript-Regular.otf");
+}
+body{
+  background-color: #02010a;
+  font-family: "Dancing-Script";
+}
+#content{
+  width: 900px;
+  margin: 0 auto;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  width: 100%;
+  color: white;
+}
+h1{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  padding-top: 30px;
+}
+#menu{
+  padding-bottom: 20px;
+}
+nav{
+  float: right;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+#menu a[href]{
+  color: white;
+}
+#menu a[href="paisajes.html"]{
+  text-decoration: none;
+}
+#container{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d5c75f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#container>div{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#image1 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+  -o-filter: blur(10px);
+}
+#image2 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+#image3 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+  -o-filter: sepia(90%);
+}
+#image4 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+#image5 img{
+  width: 100%;
+  border: solid 1px black;
+  }
+#image6 img{
+  width: 100%;
+  border: solid 1px black;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+footer{
+  display: flex;
+  flex-direction: column;
+}
+#Rights{
+  width: 100%;
+}
+#Terms{
+  width: 100%;
+}
+#SocialNetworks{
+  width: 100%;
+}
+#Rights{
+  width: 100%;
+}
+
+footer{
+background-color: #C6d5c5;
+border-radius: 0 0 10px 10px;
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+#SocialNetworks img{
+width: 20px;
+}
+#Contact{
+width: 25%;
+}
+#Terms{
+width: 25%;
+}
+#SocialNetworks{
+width: 25%;
+text-align: center;
+}
+#Rights{
+width: 25%;
+}
+@media screen and (max-width: 900px){
+      header{
+      max-width: 60%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    #container{
+      max-width: 60%;
+      display: flex;
+      flex-direction: column;
+    }
+    #container>div{
+      margin: 0 auto;
+      width: 85%;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    footer{
+      max-width: 60%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+}
